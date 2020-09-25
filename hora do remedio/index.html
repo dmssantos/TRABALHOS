@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do Remédio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hora do Remédio</h1>
+
+        <div class="quadrado">
+            <p>Hora da dose anterior</p>
+            <input class="caixa" type="text" id="anterior">
+
+            <p>Intervalo</p>
+            <input class="caixa" type="number" id="intervalo">
+
+            <div class="btn">
+                <input class="button" type="button" value="Enviar" id="calc" onclick="enviar()">
+                <input class="button" type="button" value="ajuda" id="ajuda" onclick="ajudar()">
+            </div>
+
+            <p>Hora da próxima dose</p>
+            <input class="caixa" type="text" id="proximo">
+        </div>
+
+        <footer>
+            <p>&copy; Davidsantos</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
